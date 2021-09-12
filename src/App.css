@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  display: flex ;
+}
+.App-header {
+  background-color: rgba(255, 255, 0, 0.507);
+  min-height: 50vh;
+  display: vertical ;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 10vmin);
+  color: white;
+}
+
+.App-body {
+  font-size: calc(10px + 5vmin);
+  color: black;
+}.App-border {
+  font-size: calc(10px + 5vmin);
+  border: 5px solid black;
+  color: black;
+}
+.App-welcome {
+  font-size: calc(40px + 20vmin);
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.fp-container{
+  position : fixed ;
+  width : 100%;
+  height : 100%;
+  top : 0;
+  left : 0;
+  background-color: rgba(255, 235, 205, 0.603);
+}
+.fp-container .fp-loader{
+top: 30%;
+left: 48%;
+z-index: 1000;
+position: absolute;
+}
+
+
+button  {
+  background-color:#3e68ff;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+div + div{
+  margin: 100px
+}
+.App-home:active,.App-user:active,.App-post:active {
+  background-color: rgba(255, 235, 205, 0.603);
+}
